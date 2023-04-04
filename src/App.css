@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapi.com/css2?family=Economica&family=Grape+Nuts&family=Roboto:wght@100;300;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  background-color: rgb(75, 139, 250);
+  /* position: absolute; */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+body {
+  /* background-color: ; */
+}
+
+.container {
+  background-color: rgb(189, 213, 255);
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 4vmax 8vmax;
+  box-sizing: border-box;
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 30px;
+}
+
+.container > form > input,
+textarea,
+button {
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.214);
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: rgb(75, 139, 250);
+  color: white;
+}
+
+* {
+  /* border: 1px solid red ; */
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.task > span {
+  color: rgba(0, 0, 0, 0.673);
+}
+
+.task > div {
+  width: 100%;
+}
+
+.task > button {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  font-size: 1.6rem;
+  background-color: crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task > button:hover {
+  background-color: red;
+}
